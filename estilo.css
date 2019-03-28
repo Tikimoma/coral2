@@ -1,0 +1,182 @@
+/* Importa o arquivo CSS que importa a fonte Ravie */
+@import "fonts/ravie.css";
+/*errado*/
+
+header {
+  text-align: center;
+  margin-right: 0;
+}
+
+header h1{
+  color: #e90c0c;
+  font-family: 'ravie';
+  font-size: 36px;
+}
+
+header h2{
+  font-family: 'Trebuchet MS';
+  font-size: 24px;
+  color: #333;
+  position: relative;
+  top: -10px;
+  right: -40px;
+  margin-bottom: 10px;
+}
+
+
+
+footer{
+  margin-bottom: 15px;
+  position: relative;
+  margin-right: 15px;
+  left: 695px;
+  top: 0;
+
+
+}
+
+#preço1{
+  position: relative;
+  left: 350px;
+}
+#preço2{
+  position: relative;
+  left: 122px;
+}
+#preço3{
+  position: relative;
+  left: 390px;
+}
+#preço4{
+  position: relative;
+  left: 336px;
+}
+#preço5{
+  position: relative;
+  left: 443px;
+}
+#preço6{
+  position: relative;
+  left: 345px;
+}
+#preço7{
+  position: relative;
+  left: 268px;
+}
+#preço8{
+  position: relative;
+  left: 440px;
+}
+#preço9{
+  position: relative;
+  left: 366px;
+}
+#preço10{
+  position: relative;
+  left: 364px;
+}
+
+#preço11{
+  position: relative;
+  left: 397px;
+}
+/*nao ta no ficando no lugar certo*/
+#ticket{
+  margin-left: 0;
+  margin-top: 295px;
+  width: 89px;
+  position: relative;
+  bottom: 800px;
+  left: -10px;
+  float: left;
+
+}
+
+
+
+h3{
+  font-size: 18px;
+  font-family: 'Verdana';
+  color: #333;
+  font-weight: bold;
+}
+
+p{
+  font-size: 14px;
+  font-family: 'Verdana';
+  color: #333;
+  line-height: 2em;
+}
+
+
+#açai{
+  color: #d027aa;
+}
+
+
+#recipiente{
+  background-image: linear-gradient(#f6f1b1, #4599b2);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d3d3d3;
+  max-width: 800px;
+  margin: auto;
+}
+
+#lateral{
+  display: inline-block;
+  width: 154px;
+  position:relative; left: 0;
+}
+
+#cardapio{
+  box-sizing: border-box;
+  display: inline-block;
+  position:relative; right: 0;
+  background-image: linear-gradient(#f6f1b1, #4599b2);
+  width: 646px;
+  margin-left: auto;
+  margin-right: 0;
+  border-style: solid;
+  border-color: #aac0ae;
+  border-width: 1px;
+  color: #fff;
+  filter: alpha(opacity(20));
+  text-indent: 10px;
+}
+
+#peixe{
+  margin-bottom: 0;
+  position: relative;
+  top: 20px;
+  left: -44px;
+  float: left;
+}
+
+#bolhas{
+  position: relative;
+  left: 40px;
+  top: 20px;
+}
+
+#caranguejo{
+  position: relative;
+  top: 7px;
+  left: -10px;
+  float: left;
+
+}
+
+#rodar {
+  transform: rotate(-90deg); /* dado em graus, sentido horário */
+  font-family: 'Verdana';
+  font-size: 48px;
+  color: #333 ;
+  left: -100px;
+  transition: left 100ms ease-out; /* propriedade, duração, interpolação */
+  width: 154px;
+}
+
+#rodar:hover {
+  left: 0;
+}
